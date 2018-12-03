@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.relativedatabase.DocProfielEntryActivity">
+    <EditText
+        android:id="@+id/doc_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Name"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/doc_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Details"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/doc_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Email"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/doc_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Phone"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show list"
+        android:onClick="showList"/>
+</LinearLayout>

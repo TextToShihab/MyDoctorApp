@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/docName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name: "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/docEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Email: "
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/docPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Phone: "
+        android:textSize="15sp"/>
+</LinearLayout>
